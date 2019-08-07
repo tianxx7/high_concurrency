@@ -8,6 +8,8 @@ import com.sun.org.apache.xpath.internal.SourceTree;
  * @date 2019/8/6
  *
  * t2通知后并没有立即释放锁,而是sleep 2000 之后释放锁,t1获取锁,执行代码结束
+ * wait() 和notify()需要在synchronized中执行,
+ * wait()会释放时间片和锁资源
  */
 public class SimpleWN {
     final static Object object = new Object();
