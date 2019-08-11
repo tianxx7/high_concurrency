@@ -1,6 +1,5 @@
 package cn.txx.ch2;
 
-import org.junit.runner.RunWith;
 
 /* *
  * 描述:

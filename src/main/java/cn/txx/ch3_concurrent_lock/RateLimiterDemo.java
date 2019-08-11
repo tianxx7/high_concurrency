@@ -22,7 +22,6 @@ public class RateLimiterDemo {
             limiter.acquire();
             new Thread(new Task()).start();
         }
-        
     }
 
 }
